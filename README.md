@@ -30,6 +30,7 @@ As a user
 So I can add know how long takes to cook the recipe,
 I would like to add a preparation time.
 ```
+:construction:
 ```
 As a user
 So that I can know the nutritional information
