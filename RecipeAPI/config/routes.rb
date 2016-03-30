@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  devise_for :users, skip: [ :sessions ]
+  as :user do
+    post "/api/login" => 'sessions#create'
+  end
   resources :recipes
   resources :recipes do
     post "like"
