@@ -8,17 +8,23 @@ angular.module('recipesApp.login', ['ngRoute'])
     controller: 'LoginCtrl'
   });
 }])
-.controller('LoginCtrl', [ "$scope", "$http", function($scope, $http, auth) {
+.controller('LoginCtrl', [ "$scope", "$http", "auth", "$location", function($scope, $http, auth, $location) {
   $scope.login = function()  {
     if($scope.loginForm.$valid) {
-      // auth.login($scope.user);
-    return  $http.post('http://localhost:3000/api/login', { email: $scope.user.email, password: $scope.user.password})
-    
+      var promise = auth.login($scope.user);
+      promise.then(success,error);
     }
-    console.log('hello')
-    // else {
+  };
+    var success = function(response) {
+      localStorage.setItem("auth_token", response.data.auth_token);
+      $location.path("/recipes-view")
+    };
+    var error = function(response) {
+      $scope.wrongCredentials = true;
+    }
+        // else {
     //   $scope.loginForm.submitted = true;
     // }
     
-  }
+
 }]);
