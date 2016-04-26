@@ -1,4 +1,12 @@
-# Recipes-project
+Recipedia
+==============
+
+Ronin Final Project
+-------------
+
+For our final two-week project on Ronin, we wanted to create a web application that allowed users to search through recipes to find one's requiring specific ingredients. The idea behind this was that many people end up throwing out food because they don't know how to use it within a recipe. This web application would allow people to find exactly what ingredients could be used for.
+
+Given more time, we would like to implement ways to search by preparation time or dietary requirements. An important feature we would add would be the option to upload a photo when added a recipe to the database. We would also like to make it possible to share recipes on social media sites.
 
 Team members:
 -------------
@@ -10,155 +18,23 @@ Follow us!
 -Wim Hekkelman https://github.com/jwhekk
 -Fareed Patel https://github.com/fareedpatel
 
+Screenshots:
+---------------
 
-User Stories
-------------
-:white_check_mark:
-```
-As a  user
-So that I can share my recipe
-I want to be able to add a new recipe
-```
-:white_check_mark:
-```
-As a user
-So I can break down my recipe,
-I would like to add the ingredients list
-```
-:white_check_mark:
-```
-As a user
-So I can add know how long takes to cook the recipe,
-I would like to add a preparation time.
-```
-```
-As a user
-So that I can know the nutritional information
-I would like to give information regarding its nutritional content.
-```
-```
-As a user
-So others can choose based on dietary categories
-I want to be able to add a dietary category to my recipe
-```
-:white_check_mark:
-```
-As a user
-So people can cook my recipe,
-I want to add instructions to my recipe
-```
+Home Page:
+![homepage](/screencaps/homepage.png)
 
-:white_check_mark:
-```
-As a user
-So that I can change my recipe
-I want to be able to update my recipe
-```
-```
-As a user
-So that others can see what the food looks like
-I want to be able to upload a picture
-```
-:white_check_mark:
-```
-As a user
-So that others can see how to exactly cook the recipe
-I want to be able to upload a youtube link
-```
-:white_check_mark:
-```
-As a user
-So that others can see my recipes
-I want to be able to see a list of recipes
-```
-:white_check_mark:
-```
-As a user
-So that recipes can be removed
-I want to be able to delete my recipes
-```
-```
-As recipe owner
-To prevent others to change my recipe
-You need to be signed
-```
-```
-As a user
-So that I can see what I’m looking for
-I can search by ingredients (or leftovers)
-```
-```
-As a user
-So that I can post my own recipes
-I need to sign up
-```
-:white_check_mark:
-```
-As a signed in user
-So that people understand the popularity of the recipe
-I am able to vote up or down
-```
-```
-As a signed in user
-So that people understand the issues with the recipe
-I am able to leave a comment about the recipe
-```
-```
-As a user,
-I would like to see the most popular recipes,
-I would like to sort them by number of votes
-```
-:white_check_mark:
-```
-As a user,
-I would like to see some specific recipes,
-I would like to search by its name.
-```
-```
-As a user,
-I would like to see recipes by its preparation time,
-I would like to search by preparation time.
-```
-```
-As a user,
-I would like to see recipes by dietary restrictions
-I would like to filter by choices - vegan, vegetarian, gluten free, (pork free).
-```
-```
-As a user,
-So that others can see my recipe on social networking sites
-I am able to share my recipe to facebook, twitter, tumblr,
-```
-```
-As a user,
-So I know I am signed up,
-I would like to receive a mail notification when I sign up.
-```
-```
-As a user,
-So I can be aware of the comments on my recipe,
-I would like to receive an email when other users leave comments on my recipe.
-```
-```
-As a user,
-So I can know how many people have given feedback to my recipe,
-I would like to know how many votes and comments my recipe has received.
-```
-```
-As a user,
-So that I don’t have to go shopping,
-I would like to filter my search for recipes that don’t require more ingredients.
-```
+Adding a New Recipe:
+![add a recipe](/screencaps/add_recipe.png)
 
+Viewing a Recipe:
+![view recipe](/screecaps/view)recipe.png)
 
 Technology Used
 ---------------
-Ruby on Rails Back End
-AngularJS Front End
-
-Protractor
-Karma
-Rspec
+Back End: Ruby on Rails..
+Frontend: AngularJS, CSS, HTML
+Testing: Protractor, Karma, rSpec
 
 Installation Instructions
 -------------------------
@@ -218,3 +94,61 @@ Project Diagram
 ---------------
 
 [![solarized dualmode](https://github.com/hedudelgado/Recipes-project/blob/master/diagram.png)](#features)
+
+Completed User Stories
+------------
+```
+As a  user
+So that I can share my recipe
+I want to be able to add a new recipe
+```
+```
+As a user
+So I can break down my recipe,
+I would like to add the ingredients list
+```
+```
+As a user
+So I can add know how long takes to cook the recipe,
+I would like to add a preparation time.
+```
+```
+As a user
+So people can cook my recipe,
+I want to add instructions to my recipe
+```
+```
+As a user
+So that I can change my recipe
+I want to be able to update my recipe
+```
+```
+As a user
+So that others can see how to exactly cook the recipe
+I want to be able to upload a youtube link
+```
+```
+As a user
+So that others can see my recipes
+I want to be able to see a list of recipes
+```
+```
+As a user
+So that recipes can be removed
+I want to be able to delete my recipes
+```
+```
+As a user
+So that I can see what I’m looking for
+I can search by ingredients (or leftovers)
+```
+```
+As a user
+So that people understand the popularity of the recipe
+I am able to vote up or down
+```
+```
+As a user,
+I would like to see some specific recipes,
+I would like to search by its name.
+```
