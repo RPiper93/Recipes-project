@@ -33,7 +33,7 @@ Viewing a Recipe:
 Technology Used
 ---------------
 Back End: Ruby on Rails  
-Frontend: AngularJS, CSS, HTML  
+Front End: AngularJS, CSS, HTML  
 Testing: Protractor, Karma, rSpec  
 
 Installation Instructions
