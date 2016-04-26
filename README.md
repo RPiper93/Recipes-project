@@ -28,7 +28,7 @@ Adding a New Recipe:
 ![add a recipe](/screencaps/add_recipe.png)
 
 Viewing a Recipe:
-![view recipe](/screecaps/view_recipe.png)
+![view recipe](/screencaps/view_recipe.png)
 
 Technology Used
 ---------------
