@@ -13,9 +13,9 @@ Team members:
 
 Follow us!
 
--Eduardo M Sanchez Delgado https://github.com/hedudelgado
--Rebecca Piper https://github.com/RPiper93
--Wim Hekkelman https://github.com/jwhekk
+-Eduardo M Sanchez Delgado https://github.com/hedudelgado  
+-Rebecca Piper https://github.com/RPiper93  
+-Wim Hekkelman https://github.com/jwhekk  
 -Fareed Patel https://github.com/fareedpatel
 
 Screenshots:
@@ -28,13 +28,13 @@ Adding a New Recipe:
 ![add a recipe](/screencaps/add_recipe.png)
 
 Viewing a Recipe:
-![view recipe](/screecaps/view)recipe.png)
+![view recipe](/screecaps/view_recipe.png)
 
 Technology Used
 ---------------
-Back End: Ruby on Rails..
-Frontend: AngularJS, CSS, HTML
-Testing: Protractor, Karma, rSpec
+Back End: Ruby on Rails  
+Frontend: AngularJS, CSS, HTML  
+Testing: Protractor, Karma, rSpec  
 
 Installation Instructions
 -------------------------
